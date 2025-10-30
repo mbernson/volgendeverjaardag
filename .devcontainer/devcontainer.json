@@ -10,7 +10,7 @@
   "updateContentCommand": "npm install",
   "postCreateCommand": "echo 'y' | npm run create-dev-database",
   "postAttachCommand": {
-    "server": "npm run build && npm run devserver"
+    "server": "npm run devserver"
   },
   "customizations": {
     "codespaces": {
